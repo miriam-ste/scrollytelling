@@ -1,0 +1,176 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    width: 100vw;
+    padding: 10%;
+    padding-bottom: 5%;
+    background-color: #D8E3FF;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.img-swallow {
+    width: 90%;
+    padding-right: 5%;
+
+}
+
+.headerText {
+    width: 60%;
+}
+
+h1 {
+    font-family: Hind;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.h4 {
+    font-family: 'Libre Caslon Text', serif;
+    text-transform: thin;
+    font-size: 11px;
+
+}
+
+.h3 {
+    font-family: 'Libre Caslon Text', serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 0;
+
+}
+
+.author {
+    font-family: Hind;
+    font-size: 14px;
+    padding-top: 5em;
+    padding-bottom: 0;
+}
+
+
+.text {
+    padding: 5% 25% 10% 25%;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 16;
+    line-height: 140%;
+}
+
+.text-kursiv {
+    font-style: italic;
+    padding-top: 5em;
+    font-size: 14px;
+}
+
+#bottom {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EED5BE;
+}
+
+.sticky {
+    width: 50vw;
+    height: 30vw;
+    background-color: grey;
+    position: sticky;
+    top: 1vw;
+    margin: 0 20px;
+}
+
+.description {
+    font-family: arial;
+    font-size: 14px;
+    margin: 0 10vw 0 60vw;
+}
+
+.description-text {
+    font-family: Hind;
+    font-size: 14;
+}
+
+.description-heading {
+    font-family: Hind;
+    font-size: 20px;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+}
+
+#textStyle {
+    margin-bottom: 10px;
+    padding: 50px 20px;
+    font-family: arial;
+}
+
+.sticky-sections {
+    padding-bottom: 30em;
+}
+
+.lane {
+    padding-left: 10%;
+}
+
+.textheading {
+    font-family: Hind;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#Overall {
+    color: grey;
+}
+
+#Alternative {
+    color: #52A0FD;
+}
+
+#FDP {
+    color: #FFF871;
+}
+
+#CDU {
+    color: #484848;
+}
+
+#SPD {
+    color: #F05565;
+}
+
+#Linke {
+    color: #FF8A65;
+}
+
+#Green {
+    color: #8FD14F;
+}
+
+.textHighlight {
+    font-size: 20px;
+}
+
+.footer {
+    width: 100%;
+    padding: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: #EED5BE;
+    display: flex;
+    flex-direction: row;
+}
+
+.details {
+    font-family: Hind;
+    font-size: 14px;
+    padding-top: 1em;
+    padding-bottom: 0;
+
+}
+
+#wrapper {
+}
+
+#references {
+    padding-left: 10%;
+}
