@@ -7,14 +7,16 @@ body {
     width: 100vw;
     padding: 10%;
     padding-bottom: 5%;
+    padding-top: 5%;
     background-color: #D8E3FF;
     display: flex;
     flex-direction: row;
     gap: 20px;
+    align-items: center;
 }
 
 .img-swallow {
-    width: 90%;
+    width: 80%;
     padding-right: 5%;
 
 }
@@ -27,6 +29,7 @@ h1 {
     font-family: Hind;
     font-size: 36px;
     text-transform: uppercase;
+    margin-bottom: 0.5em;
 }
 
 .h4 {
@@ -148,6 +151,8 @@ h1 {
 
 .textHighlight {
     font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 .footer {
