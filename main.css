@@ -27,9 +27,10 @@ body {
 
 h1 {
     font-family: Hind;
-    font-size: 36px;
+    font-size: 44px;
     text-transform: uppercase;
-    margin-bottom: 0.5em;
+    margin-bottom: 0 em;
+    padding-bottom: 0;
 }
 
 .h4 {
@@ -56,10 +57,23 @@ h1 {
 
 
 .text {
-    padding: 5% 25% 10% 25%;
+    padding: 5% 25% 5% 25%;
     font-family: 'Libre Caslon Text', serif;
     font-size: 16;
     line-height: 140%;
+}
+
+.textHighlight {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.headline {
+    font-family: Hind;
+    font-size: 22px;
+    padding-top: 1.5em;
+    padding-bottom: 0;
+    font-weight: 600;
 }
 
 .text-kursiv {
@@ -118,41 +132,7 @@ h1 {
 .textheading {
     font-family: Hind;
     font-size: 24px;
-    font-weight: 700;
-}
-
-#Overall {
-    color: grey;
-}
-
-#Alternative {
-    color: #52A0FD;
-}
-
-#FDP {
-    color: #FFF871;
-}
-
-#CDU {
-    color: #484848;
-}
-
-#SPD {
-    color: #F05565;
-}
-
-#Linke {
-    color: #FF8A65;
-}
-
-#Green {
-    color: #8FD14F;
-}
-
-.textHighlight {
-    font-size: 20px;
     font-weight: 600;
-    line-height: 1.5;
 }
 
 .footer {
