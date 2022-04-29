@@ -33,7 +33,7 @@ h1 {
     margin-bottom: 0em;
     padding-bottom: 0;
     margin-top: 0;
-    
+
 }
 
 .h4 {
@@ -98,11 +98,29 @@ h1 {
 
 .sticky {
     width: 50vw;
-    height: 50vw;
+    height: 45vw;
     position: sticky;
     top: 1vw;
     margin: 0 20px;
 }
+
+.sticky2 {
+    width: 50vw;
+    height: 38vw;
+    position: sticky;
+    top: 1vw;
+    margin: 0 20px;
+}
+
+.sticky3 {
+    width: 50vw;
+    height: 55vw;
+    position: sticky;
+    top: 1vw;
+    margin: 0 20px;
+}
+
+
 
 .description {
     font-family: arial;
@@ -129,7 +147,7 @@ h1 {
 }
 
 .sticky-sections {
-    padding-bottom: 30em;
+    padding-bottom: 40em;
 }
 
 .lane {
@@ -157,19 +175,91 @@ h1 {
     font-size: 14px;
     padding-top: 1em;
     padding-bottom: 0;
-    flex-grow: 1;
 
 }
 
-#wrapper {}
-
-.references {
+.dataset-details {
+    font-family: Hind;
     font-size: 10px;
+    padding-top: 1em;
+    padding-bottom: 0;
+
+}
+
+#wrapper {
+    flex-grow: 1;
+}
+
+.datasets {
+    font-size: 14px;
     font-family: Hind;
     padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1em;
+    padding-bottom: 0;
     flex-grow: 2;
 }
 
 #secondreferences {
     padding-top: 5em;
+}
+
+.twocolpage {
+    background-color: #EED5BE;
+    padding: 5%;
+}
+
+.references {
+    font-size: 14px;
+    font-family: Hind;
+    padding: 3% 25% 5% 25%;
+}
+
+.overall-background {
+    background-color: #90b8c9;
+}
+
+.AFD-background {
+    background-color: #31525b;
+    color: whitesmoke;
+}
+
+.FDP-background {
+    background-color: #5b7c7d;
+}
+
+.CDU-background {
+    background-color: #b3dee5;
+}
+
+.SPD-background {
+    background-color: #fed3a5;
+}
+
+.Left-background {
+    background-color: #fe9001;
+}
+
+.Greens-background {
+    background-color: #fe5e31;
+}
+
+.year-background {
+    background-color: #98ABAC;
+}
+
+.rep-background {
+    background-color: #fed3a5;
+}
+
+.ref-style {
+    color:black;
+    text-decoration: none;
+}
+
+.references-back {
+    font-size: 14px;
+    font-family: Hind;
+    padding: 0% 25% 0% 25%;
+    margin-top: 0;
 }
