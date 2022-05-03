@@ -64,7 +64,7 @@ h1 {
 
 
 .text {
-    padding: 3% 25% 1% 25%;
+    padding: 3% 25% 2% 25%;
     font-family: 'Libre Caslon Text', serif;
     font-size: 16;
     line-height: 140%;
@@ -158,7 +158,7 @@ h1 {
     font-family: Hind;
     font-size: 24px;
     font-weight: 600;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .footer {

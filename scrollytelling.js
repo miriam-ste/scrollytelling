@@ -87,7 +87,7 @@ document.addEventListener("scroll", function () {
     console.log("print", inViewHalf("Profession-text-body"))
 
 
-    var graph3TitlesShown = inView("Gender-text") || inView("Age-text") || inView("Ethicity-text") || inView("Religion-text") || inView("Profession-text") || inView("MaritalStatus-text") || inView("Ableness-text") || inView("Sexuality-text") || inViewHalf("Profession-text-body")
+    var graph3TitlesShown = inView("Gender-text") || inView("Age-text") || inView("Ethicity-text") || inViewHalf("Religion-text") || inView("Profession-text") || inViewHalf("MaritalStatus-text") || inView("Ableness-text") || inView("Sexuality-text") || inViewHalf("Profession-text-body")
 
     if (!graph3TitlesShown) {
         document.getElementById("Gender-graph").style.opacity = 1;
